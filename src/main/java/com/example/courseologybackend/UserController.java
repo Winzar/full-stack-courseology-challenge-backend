@@ -11,7 +11,7 @@ import java.util.List;
 public class UserController {
 
     @Autowired // does all the mapping for us
-    com.example.courseologybackend.UserRepository userRepository;
+    UserRepository userRepository;
 
     @GetMapping("/user")
     public String getUser () {
